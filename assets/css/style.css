@@ -70,11 +70,14 @@ main {
     top: 50px;
     width: 80%;
     padding: 20px 40px;
+    
   }
 
   .align {
     display: flex;
     flex-wrap: wrap;
+    
+
   }
 
   .container2_title {
