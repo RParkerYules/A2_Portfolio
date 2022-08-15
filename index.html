@@ -9,29 +9,27 @@
 </head>
 
    
-   <!-- The header is a cropped stock image with my name  -->
+   <!-- The header is a cropped stock image with name  -->
     <header class="main-header">
         <h1>Rodney Parker-Yules</h1>
     </header>
  
 <body>
     <main> 
+
+    <!-- Links connect to each of the containers when selected  -->
     <section>
         <div>
             <ul>
                 <li class="link" style="display:inline"><a href="#about_me">About Me</a></li>
                 <li class="link" style="display:inline"><a href="#work">My Work</a></li>
                 <li class="link" style="display:inline"><a href="#contact">Contact Me</a></li>
-                <li class="link" style="display:inline"><a href="#resume">Resume</a></li>    
             </ul>
         </div>        
     </section>
 
-        
-    </section>
-
-        <!-- Section 1 - this is a short story about me for those who don't wantr to read my CV -->
-
+    <!-- Section 1 - this is a short story about me for those who don't wantr to read my CV -->
+    </section id="about_me">
         <div class="container1" > 
             <h2 class="container1_title">About Me:</h2>
             <p class="container1_text">What you see is what you get. I use to be a mushroom, but now I'm just a fun-gi.</p>
@@ -40,33 +38,37 @@
             <p class="container1_text">Impact Systems where I learnt Project Management. We built Laser Printers,</p>  
             <p class="container1_text">and that is where I first started working with development teams.</p>
         </div>
-    </section>    
-
-        <!--Section 2 - This is where my projects will be stored, each with a link to the website-->
-    <section class="container2 align">
+   
+    <!--Section 2 - This is where my projects will be stored, each with a link to the website-->  
+    </section id="work">    
+    <section class="container2">
         <h2 class="container2_title">My Work:</h2> 
+    <!--"parent-1" was configured to set the content in a column-->  
+        <div class="parent-1">
+            <div>
+                <img class="box" src="./assets/images/egypt.jpg" alt="Project 1" width="840" height="300"/>      
+                <h3 class="label">Explore Egypt</h3>   
+            </div>
+    <!--"parent-2" configures the smaller images across the page, but allows them to stack when the page size is reduced-->  
+            <div class="parent-2">
+                <div>
+                    <img class="box" src="./assets/images/desert_sky.jpg" alt="Project 2" width="400" height="300"/>      
+                    <h3 class="label">Desert Sky</h3>   
+                </div>
 
-        <div>
-            <img class="box" src="./assets/images/egypt.jpg" alt="Project 1" width="500" height="300"/>      
-            <h3 class="label">Explore Egypt</h3>   
-        </div>
-
-        <div>
-            <img class="box align" src="./assets/images/desert_sky.jpg" alt="Project 2" width="400" height="300"/>      
-            <h3 class="label">Desert Sky</h3>   
-        </div>
-
-        <div>
-            <img class="box" src="./assets/images/tiger.jpg" alt="Project 3" width="400" height="300"/>      
-            <h3 class="label">Magestic Tigers</h3>   
+                <div>
+                    <img class="box" src="./assets/images/tiger.jpg" alt="Project 3" width="400" height="300"/>      
+                    <h3 class="label">Magestic Tigers</h3>   
+                </div>
+            </div>
         </div>
 
     </section>       
 
 </main>  
   
-        <!--Section 3 - contact details-->
-    <section>
+    <!--Section 3 - contact details links are placeholders at this point until I work out what links I want & where to connect them-->
+    <section id="contact">
         <div class="container3">  
         <h2 class="container3_title">Contact Me:</h2>     
             <ul>
@@ -77,9 +79,6 @@
             </ul>
         </div>          
     </section>       
-
-
-
 
     <section>
         <div class="footer">
